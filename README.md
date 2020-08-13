@@ -1,6 +1,7 @@
 # threepairs-crypt
+<img src="logo.jpg" width="200px" height="200px">
 Criptografia hiper simples feita em python (WIP)
-<img src="logo.jpg" width="100px" height="100px">
+
 ## Lista de caracteres
 ```
 "A" = "222!"
