@@ -1,5 +1,5 @@
 # threepairs-crypt
-Criptografia hiper simples baseada em python (WIP)
+Criptografia hiper simples feita em python (WIP)
 
 ## Lista de caracteres
 ```
