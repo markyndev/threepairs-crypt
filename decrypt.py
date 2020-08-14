@@ -1,38 +1,45 @@
 from datetime import datetime
 nom = datetime.now()
+print("   ████████ ██████   ██████ ")
+print("      ██    ██   ██ ██      ")
+print("      ██    ██████  ██      ")
+print("      ██    ██      ██      ")
+print("      ██    ██       ██████ ")
+print("")
+alvo  = input("Decode$ ")
 
-alvo  = input("$ ")
+keyA = alvo.replace("222!", "A");
+keyB = keyA.replace("422@", "B");
+keyC = keyB.replace("822#", "C");
+keyD = keyC.replace("162$", "D");
+keyE = keyD.replace("322%", "E");
+keyF = keyE.replace("642^", "F");
+keyG = keyF.replace("128&", "G");
+keyH = keyG.replace("256*", "H");
+keyI = keyH.replace("512(", "I");
+keyJ = keyI.replace("102)", "J");
+keyK = keyJ.replace("204-", "K");
+keyL = keyK.replace("404_", "L");
+keyM = keyL.replace("814+", "M");
+keyN = keyM.replace("162=", "N");
+keyO = keyN.replace("326|", "O");
+keyP = keyO.replace("654[", "P");
+keyQ = keyP.replace("132]", "Q");
+keyR = keyQ.replace("262{", "R");
+keyS = keyR.replace("524}", "S");
+keyT = keyS.replace("104;", "T");
+keyU = keyT.replace("202:", "U");
+keyV = keyU.replace("412<", "V");
+keyW = keyV.replace("838>", "W");
+keyX = keyW.replace("162.", "X");
+keyY = keyX.replace("332,", "Y");
+keyZ = keyY.replace("674?", "Z");
+keySPC = keyZ.replace("984~", " ");
 
-cryA = alvo.replace("222!", "A");
-cryB = cryA.replace("422@", "B");
-cryC = cryB.replace("822#", "C");
-cryD = cryC.replace("162$", "D");
-cryE = cryD.replace("322%", "E");
-cryF = cryE.replace("642^", "F");
-cryG = cryF.replace("128&", "G");
-cryH = cryG.replace("256*", "H");
-cryI = cryH.replace("512(", "I");
-cryJ = cryI.replace("102)", "J");
-cryK = cryJ.replace("204-", "K");
-cryL = cryK.replace("404_", "L");
-cryM = cryL.replace("814+", "M");
-cryN = cryM.replace("162=", "N");
-cryO = cryN.replace("326|", "O");
-cryP = cryO.replace("654[", "P");
-cryQ = cryP.replace("132]", "Q");
-cryR = cryQ.replace("262{", "R");
-cryS = cryR.replace("524}", "S");
-cryT = cryS.replace("104;", "T");
-cryU = cryT.replace("202:", "U");
-cryV = cryU.replace("412<", "V");
-cryW = cryV.replace("838>", "W");
-cryX = cryW.replace("162.", "X");
-cryY = cryX.replace("332,", "Y");
-cryZ = cryY.replace("674?", "Z");
-crySPC = cryZ.replace("984~", " ");
-
-fln = crySPC
-print(cryA)
-print("DECRYPTED! \n")
-print(fln)
-print("\n")
+fln = keySPC
+print("")
+print("==============================RESULT=================================")
+print("")
+print(keySPC)
+print("")
+print("=====================================================================")
