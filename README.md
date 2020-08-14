@@ -1,6 +1,6 @@
 # threepairs-crypt
 <img src="logo.jpg" width="200px" height="200px">
-Criptografia hiper simples feita em python (WIP)
+Codificação hiper simples feita em python.
 
 ## Lista de caracteres
 ```
