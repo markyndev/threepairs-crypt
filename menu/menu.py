@@ -2,20 +2,22 @@ from datetime import datetime
 nom = datetime.now()
 hour = int(nom.strftime("%H"))
 print("")
-print("_____________________________")
-print("|                           |")
-print("| 1.         CODER          |")
-print("| 2.         DECODER        |")
-print("| 3.         INFO           |")
-print("| 4.         QUIT           |")
-print("|                           |")
-print("─────────────────────────────")
+print("╔═══════════════════════════╗")
+print("║         ThreePairs        ║")
+print("╠═══════════════════════════╣")
+print("║                           ║")
+print("║  1.         CODER         ║")
+print("║  2.         DECODER       ║")
+print("║  3.         INFO          ║")
+print("║  4.         KEYMAP        ║")
+print("║                           ║")
+print("╚═══════════════════════════╝")
 print("")
-alvo  = int(input("[CHOOSE]: "))
+alvo  = int(input("▶ "))
 if alvo == 1:
  print("")
  print("")
- txt  = str(input("[ENCODE]: ")).upper()
+ txt  = str(input("Encode ▶ ")).upper()
  keyA = txt.replace("A", "222!");
  keyB = keyA.replace("B", "422@");
  keyC = keyB.replace("C", "822#");
@@ -43,16 +45,11 @@ if alvo == 1:
  keyY = keyX.replace("Y", "332,");
  keyZ = keyY.replace("Z", "674?");
  keySPC = keyZ.replace(" ", "984~");
- print("")
- print("==============================RESULT=================================")
- print("")
- print(keySPC)
- print("")
- print("=====================================================================")
+ print("❲result❳ "+ keySPC +" ")
 elif alvo == 2:
  print("")
  print("")
- decodl  = input("[Decode]: ")
+ decodl  = input("Decode ▶ ")
   
  dcdA = decodl.replace("222!", "A");
  dcdB = dcdA.replace("422@", "B");
@@ -84,11 +81,9 @@ elif alvo == 2:
  
  fln = dcdSPC
  print("")
- print("==============================RESULT=================================") 
- print("")
- print(dcdSPC.lower())
- print("")
- print("=====================================================================")
+
+ print("❲result❳"+ dcdSPC.lower()+" ")
+
 
 elif alvo == 3:
  print("")
@@ -96,4 +91,34 @@ elif alvo == 3:
  print("Project: https://github.com/markyndev/threepairs-crypt/")
  print("")
 elif alvo == 4:
- quit()
+ print("╔══════════╗")
+ print("║  KEYMAP  ║")
+ print("╠══════════╣")
+ print("║ A = 222! ║")
+ print("║ B = 422@ ║")
+ print("║ C = 822# ║")
+ print("║ D = 162$ ║")
+ print("║ E = 322% ║")
+ print("║ F = 642^ ║")
+ print("║ G = 128& ║")
+ print("║ H = 256* ║")
+ print("║ I = 512( ║")
+ print("║ J = 102) ║")
+ print("║ K = 204- ║")
+ print("║ L = 404_ ║")
+ print("║ M = 814+ ║")
+ print("║ N = 162= ║")
+ print("║ O = 326| ║")
+ print("║ P = 654[ ║")
+ print("║ Q = 132] ║")
+ print("║ R = 262{ ║")
+ print("║ S = 524} ║")
+ print("║ T = 104; ║")
+ print("║ U = 202: ║")
+ print("║ V = 412< ║")
+ print("║ W = 838> ║")
+ print("║ X = 162. ║")
+ print("║ Y = 332, ║")
+ print("║ Z = 674? ║")
+ print("║   = 984~ ║")
+ print("╚══════════╝")
